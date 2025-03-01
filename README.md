@@ -1,3 +1,111 @@
+<p align="center"> 
+    <img src="https://raw.githubusercontent.com/shoaibshams/expense-tracker/main/readme-logo.png?sanitize=true" height="100">
+</p>
+<p align="center">
+    <a href="https://github.com/shoaibshams/expense-tracker/graphs/contributors">
+        <img src="https://img.shields.io/github/contributors/shoaibshams/expense-tracker" />
+    </a>
+    <a href="https://opensource.org/licenses/MIT">
+        <img src="https://img.shields.io/badge/License-MIT-green.svg" />
+    </a>
+</p>
+
+# Expense Tracker
+## Description
+Expense Tracker is designed to assist you in meticulously monitoring your personal finances. Built with Laravel and Livewire, it empowers you to effortlessly record and oversee your expenses, classify them by account type (such as cash or bank), and generate insightful reports to gain valuable insights into your financial habits and trends.
+
+## Screenshots
+
+![Dashboard](https://github.com/Hasen38/expense_tracker/blob/main/expense1.png)
+![accounts](https://github.com/Hasen38/expense_tracker/blob/main/expense2.png)
+![categories](https://github.com/Hasen38/expense_tracker/blob/main/expense3.png)
+![transactions](https://github.com/Hasen38/expense_tracker/blob/main/expense4.png)
+![calendar-view](https://github.com/Hasen38/expense_tracker/blob/main/expense5.png)
+
+
+## Features
+
+* Dashboard
+  * Monthly and weekly summary charts
+  * Summary of Accounts (Opening balance, Income, Expense, Current Balance)
+  * Yearly breakdown of income and expenses, organized by month
+* Multiple accounts
+  * Support for multiple account types, including Cash, Bank, and more
+* Categories
+  * Income & Expense categories
+* Reporting
+  * Detailed Accounts Ledger
+  * Transaction Reports with Customizable Category Filters and More
+
+## Installation
+```bash
+# Clone the repository
+git clone https://github.com/shoaibshams/expense-tracker.git
+
+# Change the directory
+cd expense-tracker
+
+# Install dependencies
+composer install
+
+# Create a copy of .env file
+cp .env.example .env
+
+# Generate application key
+php artisan key:generate
+
+# Create a database and update .env file with database credentials
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=expense_tracker
+DB_USERNAME=root
+DB_PASSWORD=
+
+# Run database migrations and seeders
+php artisan migrate --seed
+
+# Start the local development server
+php artisan serve
+```
+
+You should now be able to access the project at http://localhost:8000.
+
+## Credentials
+**Email:** admin@admin.com
+
+**Password:** password
+
+## Usage
+
+To begin using the Expense Tracker, simply log in using the following credentials:
+
+**Email:** admin@admin.com
+
+**Password:** password
+
+After logging in, you can start adding accounts, categories, income, and expenses.
+
+# Contributing
+
+Contributions are **welcome** and will be fully **credited**.
+
+Please read and understand the contribution guide before creating an issue or pull request.
+
+## Procedure
+
+Before filing an issue:
+
+- Attempt to replicate the problem, to ensure that it wasn't a coincidental incident.
+- Check to make sure your feature suggestion isn't already present within the project.
+- Check the pull requests tab to ensure that the bug doesn't have a fix in progress.
+- Check the pull requests tab to ensure that the feature isn't already in progress.
+
+Before submitting a pull request:
+
+- Check the codebase to ensure that your feature doesn't already exist.
+- Check the pull requests to ensure that another person hasn't already submitted the feature or fix.
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
