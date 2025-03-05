@@ -40,7 +40,7 @@ Expense Tracker is designed to assist you in meticulously monitoring your person
 ## Installation
 ```bash
 # Clone the repository
-git clone https://github.com/shoaibshams/expense-tracker.git
+git clone https://github.com/hasen38/expense-tracker.git
 
 # Change the directory
 cd expense-tracker
