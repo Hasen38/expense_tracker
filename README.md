@@ -1,14 +1,14 @@
 <p align="center"> 
     <img src="https://raw.githubusercontent.com/shoaibshams/expense-tracker/main/readme-logo.png?sanitize=true" height="100">
 </p>
-<p align="center">
+<!-- <p align="center">
     <a href="https://github.com/shoaibshams/expense-tracker/graphs/contributors">
         <img src="https://img.shields.io/github/contributors/shoaibshams/expense-tracker" />
     </a>
     <a href="https://opensource.org/licenses/MIT">
         <img src="https://img.shields.io/badge/License-MIT-green.svg" />
     </a>
-</p>
+</p> -->
 
 # Expense Tracker
 ## Description
